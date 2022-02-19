@@ -1,0 +1,11 @@
+<div>
+    Length = <input type="text" [(ngModel)]="length"><a>m</a><br/>
+    <br/>
+    Breadth = <input type="text" step='0.01' [(ngModel)]="breadth"><a>m</a><br/>
+    <br/>
+    Height = <input type="text" [(ngModel)]="height"><a>m</a><br/>
+    <br/>
+    <input class="button" type="button" value="Calculate Volume" (click)="onCalculateVolume()"><br/>
+    <br/>
+    Volume = <input type="text"  [value]="volume"><a>m<sup>3</sup></a>
+</div>

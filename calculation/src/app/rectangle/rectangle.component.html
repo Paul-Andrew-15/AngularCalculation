@@ -1,0 +1,9 @@
+<div>
+    Length = <input type="text" [(ngModel)]= "length"><a>m</a><br/>
+    <br/>
+    Breadth = <input type="text" [(ngModel)]= "breadth"><a>m</a><br/>
+    <br/>
+    <input class="button" type = "button" (click)=" onCalculateArea()" value="Calculate Area"><br/>
+    <br/>
+    Area = <input type="text" readonly value="0" [value]= "area"><a>m<sup>2</sup></a>
+</div>
